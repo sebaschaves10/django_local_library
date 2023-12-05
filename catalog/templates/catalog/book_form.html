@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="Submit">
+    
+</form>
+{% endblock %}
+[03/Dec/2023 10:35:03] "GET /catalog/static/images/local_library_model_uml.png HTTP/1.1" 404 1978
