@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-2lp64#wbel@x8r
 
 # ADVERTENCIA DE SEGURIDAD: ¡no ejecute con la depuración activada en producción!
 #DEBUG = True
-DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'True'
 
 ALLOWED_HOSTS = ['web-production-f35b.up.railway.app', '127.0.0.1']
 
